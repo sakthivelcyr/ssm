@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "<h1 align='center'>Sakthi Super Market</h1>" + "<p>"+str(myresult)+"</p>"
+    return "<h1 align='center'>Hello World !</h1>" + "<p>"+str(myresult)+"</p>"
 
 if __name__ == '__main__':
     app.run()
